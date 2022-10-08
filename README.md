@@ -4,7 +4,7 @@
 
 Ante todo es necesario ejecutar los siguientes comandos para poder ver el proyecto en curso.
 
-## Installation ⚙️
+## Instalación ⚙️
 
 Instalar dependecias con node.js (este proyecto esta construido con VITE)
 
