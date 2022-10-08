@@ -1,0 +1,6 @@
+<svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4" y="8" width="21" height="2" fill="black"/>
+<rect x="18" y="5" width="2" height="8" fill="black"/>
+<rect x="25" y="18" width="21" height="2" transform="rotate(-180 25 18)" fill="black"/>
+<path d="M11 21L9 21L9 13L11 13L11 21Z" fill="black"/>
+</svg>
