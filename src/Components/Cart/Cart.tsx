@@ -6,17 +6,16 @@ import close from '../../Assets/close.svg'
 
 export const Cart = () => {
 
-    const { setIsClosed } = useContext(ForusContext)
+    const { setIsClosed } = useContext<any>(ForusContext)
 
     const { 
         items,
-        removeItem,
         totalItems,
         cartTotal,
         updateItemQuantity
     } = useCart()
 
-    const handleOpenCart = (e:any)=>{
+    const handleOpenCart = ()=>{
         setIsClosed(false)
     }
 

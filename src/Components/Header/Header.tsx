@@ -9,7 +9,7 @@ export const Header = () => {
 
   const { totalItems } = useCart()
 
-  const { setIsClosed, setSearch } = useContext(ForusContext)
+  const { setIsClosed, setSearch } = useContext<any>(ForusContext)
 
   const handleClosed = (e: any)=>{
     setIsClosed(true)

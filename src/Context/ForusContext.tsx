@@ -1,2 +1,2 @@
 import { createContext } from "react";
-export const ForusContext:any = createContext({})
+export const ForusContext:any = createContext([])

@@ -12,7 +12,7 @@ import eyes from '../../Assets/eyes.svg'
 
 export const ProductsList = () => {
 
-  const { setDetalle, setIsClosedDetails } = useContext(ForusContext)
+  const { setDetalle, setIsClosedDetails } = useContext<any>(ForusContext)
 
   const { addItem } = useCart();
   const { 
@@ -24,7 +24,7 @@ export const ProductsList = () => {
     talla,
     search,
     tienda
-  } = useContext(ForusContext)
+  } = useContext<any>(ForusContext)
 
   const filterProducts = ()=>{
 

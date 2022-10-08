@@ -13,7 +13,7 @@ export const Filter = () => {
       setColor,
       setTalla,
       setTienda
-  } = useContext(ForusContext)
+  } = useContext<any>(ForusContext)
 
   return (
     <FilterContent>

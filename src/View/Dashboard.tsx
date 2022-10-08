@@ -13,18 +13,18 @@ import { Details } from "../Components/Details/Details"
 
 export const Dashboard = () => {
 
-  const [isClosed, setIsClosed] = useState(false)
-  const [isClosedDetails, setIsClosedDetails] = useState(false)
-  const [genero, setGenero] = useState('')
-  const [clase, setClase] = useState('')
-  const [marca, setMarca] = useState('')
-  const [tipo, setTipo] = useState('')
-  const [color, setColor] = useState('')
-  const [talla, setTalla] = useState('')
-  const [precio, setPrecio] = useState('')
-  const [search, setSearch] = useState('')
-  const [tienda, setTienda] = useState('')
-  const [detalle, setDetalle] = useState('')
+  const [isClosed, setIsClosed] = useState<any>(false)
+  const [isClosedDetails, setIsClosedDetails] = useState<any>(false)
+  const [genero, setGenero] = useState<any>('')
+  const [clase, setClase] = useState<any>('')
+  const [marca, setMarca] = useState<any>('')
+  const [tipo, setTipo] = useState<any>('')
+  const [color, setColor] = useState<any>('')
+  const [talla, setTalla] = useState<any>('')
+  const [precio, setPrecio] = useState<any>('')
+  const [search, setSearch] = useState<any>('')
+  const [tienda, setTienda] = useState<any>('')
+  const [detalle, setDetalle] = useState<any>('')
   
 
   return (

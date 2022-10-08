@@ -5,7 +5,7 @@ import { ForusContext } from "../../Context/ForusContext"
 
 export const Details = () => {
 
-    const { detalle, setIsClosedDetails } = useContext(ForusContext)
+    const { detalle, setIsClosedDetails } = useContext<any>(ForusContext)
 
   return (
     <DetailsContent>
